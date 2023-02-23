@@ -506,7 +506,7 @@ img {
 .hero {
   margin: 0 auto;
   max-width: 480px;
-  min-height: 400px;
+
   padding: 118px 30px;
   background-color: #c4c4c4;
   background-image: linear-gradient(
@@ -533,10 +533,10 @@ img {
       url("../images/hero-mobile@2x.jpg");
   }
 }
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    padding: 118px 60px;
+    padding: 118px 0px;
     background-image: linear-gradient(
         to right,
         rgba(47, 48, 58, 0.4),
@@ -546,10 +546,10 @@ img {
     background-size: cover;
   }
 }
-@media screen and (min-width: 577px) and (min-device-pixel-ratio: 2),
-  screen and (min-width: 577px) and (-webkit-min-device-pixel-ratio: 2),
-  screen and (min-width: 577px) and (min-resolution: 192dpi),
-  screen and (min-width: 577px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -559,10 +559,10 @@ img {
       url("../images/hero-tablet@2x.jpg");
   }
 }
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
-    min-height: 600px;
+
     padding: 200px 0;
     background-image: linear-gradient(
         to right,
@@ -573,10 +573,10 @@ img {
     background-size: cover;
   }
 }
-@media screen and (min-width: 961px) and (min-device-pixel-ratio: 2),
-  screen and (min-width: 961px) and (-webkit-min-device-pixel-ratio: 2),
-  screen and (min-width: 961px) and (min-resolution: 192dpi),
-  screen and (min-width: 961px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         to right,
@@ -695,7 +695,6 @@ img {
 }
 
 /* Чим ми займаємось */
-
 @media screen and (max-width: 1199px) {
   .section-work {
     display: none;
@@ -804,7 +803,6 @@ img {
     height: 260px;
   }
 }
-
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -1126,15 +1124,15 @@ img {
 
 /* ----------------Портфоліо--------------------- */
 
-  .filter-list {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    margin-bottom: 40px;
-  }
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  margin-bottom: 40px;
+}
 
 @media screen and (min-width: 768px) {
-  .filter-list {    
+  .filter-list {
     margin-bottom: 36px;
     justify-content: center;
   }
@@ -1170,7 +1168,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 
 .portfolio-project {
   display: flex;
@@ -1328,7 +1325,7 @@ img {
   text-align: center;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1,5;
+  line-height: 1, 5;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
 }
