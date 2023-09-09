@@ -501,6 +501,7 @@ img {
     font-size: 18px;
   }
 }
+
 /*----Кінець модального вікна----*/
 /* Стилізація героя */
 .hero {
@@ -562,7 +563,6 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
-
     padding: 200px 0;
     background-image: linear-gradient(
         to right,
@@ -645,7 +645,6 @@ img {
     flex-wrap: nowrap;
   }
 }
-
 @media screen and (min-width: 768px) {
   .benefits-item {
     width: 354px;
@@ -1023,7 +1022,6 @@ img {
   margin-bottom: 20px;
   color: var(--white-text-color);
 }
-
 .join .team-icons {
   padding-left: 0;
   padding-right: 0;
@@ -1130,7 +1128,6 @@ img {
   row-gap: 15px;
   margin-bottom: 40px;
 }
-
 @media screen and (min-width: 768px) {
   .filter-list {
     margin-bottom: 36px;
@@ -1168,7 +1165,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .portfolio-project {
   display: flex;
   flex-wrap: wrap;
@@ -1419,11 +1415,9 @@ img {
   appearance: none;
   margin-right: 12px;
 }
-
 .check-label {
   position: relative;
 }
-
 .checkbox-icon {
   position: absolute;
   top: -2px;
@@ -1443,7 +1437,6 @@ img {
     top: 4px;
   }
 }
-
 .checkbox:checked + .checkbox-icon {
   fill: var(--accent-color);
   border: transparent;
