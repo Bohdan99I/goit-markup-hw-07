@@ -3,6 +3,11 @@
   const openMenuBtn = document.querySelector('.js-open-menu');
   const closeMenuBtn = document.querySelector('.js-close-menu');
 
+    if (!mobileMenu || !openMenuBtn || !closeMenuBtn) {
+      console.error("Один або кілька елементів не знайдено.");
+      return;
+    }
+
   const toggleMenu = () => {
     const isMenuOpen =
       openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
